@@ -1,3 +1,6 @@
 /target
 
+/migration/target
+
 .idea
+.envrc
