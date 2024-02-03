@@ -16,3 +16,6 @@ $ rust-axum-seaorm-postgres % sea-orm-cli generate entity \
     -u postgresql://postgres:postgres@localhost:5432/example \
     -o ./src/domain/model
 ```
+
+## reference
+- https://zenn.dev/collabostyle/articles/0641d73f776d80
