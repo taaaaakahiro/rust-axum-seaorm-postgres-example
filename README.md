@@ -7,14 +7,14 @@ $ sea-orm-cli migrate init
 
 # migrate
 $ cd ./migration
-$ sea-orm-cli migrate generate <migration_file_name>
+$ sea-orm-cli migrate generate <migration_file_name> #optional
 $ cargo run -- refresh
 
 # create model
 $ cd ./ #project root
-$ rust-axum-seaorm-postgres % sea-orm-cli generate entity \                   
+$ sea-orm-cli generate entity \
     -u postgresql://postgres:postgres@localhost:5432/example \
-    -o ./src/domain/model
+    -o ./src/domain
 ```
 
 ## reference
