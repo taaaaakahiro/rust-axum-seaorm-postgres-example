@@ -6,7 +6,7 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-sea-orm = { version = "0.12.2", features = [ "sqlx-postgres", "runtime-tokio-rustls", "macros" ] }
+sea-orm = { version = "0.12.2", features = ["sqlx-postgres", "runtime-tokio-rustls", "macros"] }
 log = "0.4.20"
-tokio = { version = "1.32.0", features = ["full"] }
+tokio = { version = "1.37.0", features = ["full"] }
 env_logger = "0.11.1"
